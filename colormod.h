@@ -1,8 +1,10 @@
-// SOURCE FROM https://stackoverflow.com/a/17469726
+// SOURCE FROM https://stackoverflow.com/a/17469726, I ADDED SOME COLOURS
 
 #include <ostream>
-namespace Color {
-    enum Code {
+namespace Color
+{
+    enum Code
+    {
         FG_RED      = 31,
         FG_GREEN    = 32,
         FG_BLUE     = 34,
@@ -13,7 +15,8 @@ namespace Color {
         BG_DARKBLUE = 104,
         BG_DEFAULT  = 49
     };
-    class Modifier {
+    class Modifier
+    {
         Code code;
     public:
         Modifier(Code pCode) : code(pCode) {}
