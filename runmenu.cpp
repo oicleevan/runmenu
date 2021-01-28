@@ -1,5 +1,7 @@
 #include <iostream>
+#include <string>
 #include <cstdlib>
+
 #include "colormod.h"
 
 using std::cout;
