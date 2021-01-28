@@ -1,6 +1,6 @@
 # Evan's Basic Runmenu
 
-More suckless than suckless!
+More suckless than dmenu!
 
 ## Why?
 
