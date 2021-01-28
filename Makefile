@@ -5,6 +5,7 @@ runmenu.o: runmenu.cpp
 	g++ -c runmenu.cpp
 
 install:
+	make
 	cp runmenu /usr/bin
 
 clean:

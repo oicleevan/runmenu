@@ -17,11 +17,12 @@ int main()
     Modifier def(Color::BG_DEFAULT);
     
     cout << blue << " Run: " << def << " ";
-    cin >> input;
+    getline(cin, input);
 
     string program = "nohup ";
-    program.append(input);
+    program.append(input + " &");
 
     system(program.c_str());
+    system("exit");
     system("rm ./nohup.out");
 }
