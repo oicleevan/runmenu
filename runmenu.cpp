@@ -6,12 +6,14 @@ using std::cout;
 using std::cin;
 using std::string;
 
+using Color::Modifier;
+
 int main()
 {
     string input;
- 
-    Color::Modifier blue(Color::BG_DARKBLUE);
-    Color::Modifier def(Color::BG_DEFAULT);
+    Modifier blue(Color::BG_DARKBLUE);
+    Modifier def(Color::BG_DEFAULT);
+    
     cout << blue << " Run: " << def << " ";
     cin >> input;
 
