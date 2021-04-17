@@ -24,7 +24,7 @@ If you want, you can cleanup the files after install.
 
 `make clean`
 
-## Credit
+### Minor Credits
 
 The header for foreground and background colours was something I found from a StackOverflow page. 
 
